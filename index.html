@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew And Byte</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="headd">
+        <h1 class="heading">Brew & Byte</h1>
+        <nav>
+
+            <ul class="uls">
+                <li><a href="#menu">Menu</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+                <li class="order-count"> Items in order: <span id="count">0</span> </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu" class="menu">
+            <h2>Menu</h2>
+            <div class="divi">
+
+
+                <article class="card1">
+                    <span class="badge">Bestseller</span>
+                    <img src="https://plus.unsplash.com/premium_photo-1675435644687-562e8042b9db?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                        alt="Espresso" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Espresso</h3>
+                            <p class="price">$120</p>
+                        </div>
+
+                        <button data-item="espresso" class="btn" type="button">Add to order</button>
+
+
+                    </div>
+
+                </article>
+                <article class="card1">
+                    <img src="https://plus.unsplash.com/premium_photo-1674327105074-46dd8319164b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                        alt="Cappuccino" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Cappuccino</h3>
+                            <p class="price">$160</p>
+                        </div>
+                        <button data-item="cappuccino" class="btn" type="button">Add to order</button>
+                    </div>
+
+                </article>
+                <article class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWaTflxuIaHjZV6es-dVu8JVcxZryn-VxFbkGzrx7kLncO6UyFJS7NIOQ&s=10"
+                        alt="Latte" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Latte</h3>
+                            <p class="price">$170</p>
+                        </div>
+                        <button data-item="latte" class="btn" type="button">Add to order</button>
+                    </div>
+
+                </article>
+                <article class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmMqkmnLEZTK8bQ9XAfvUqR834bCGnAig5wtwbeVl_xA&s=10"
+                        alt="Cold coffee" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Cold coffee</h3>
+                            <p class="price">$180</p>
+                        </div>
+                        <button data-item="cold-coffee" class="btn" type="button">Add to order</button>
+                    </div>
+
+                </article>
+                <article class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTQbohiWRzZQ4P2cow2pUtDYs3qAgU_A6dMdl7lm83GA&s=10"
+                        alt="Croissant" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Croissant</h3>
+                            <p class="price">$110</p>
+                        </div>
+                        <button data-item="croissant" class="btn" type="button">Add to order</button>
+                    </div>
+
+                </article>
+                <article class="card1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0mEEWS288ffRTeN9zHkCwoy2vp_1QB_XUMV2Ksskrg&s=10"
+                        alt="Brownie" />
+                    <div class="boxer">
+
+                        <div class="inn-box">
+                            <h3>Brownie</h3>
+                            <p class="price">$130</p>
+                        </div>
+                        <button data-item="brownie" class="btn" type="button">Add to order</button>
+                    </div>
+
+                </article>
+            </div>
+            <p id="price" class="amount">Today's special: $99</p>
+        </section>
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form class="b">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+                <button type="submit" class="btn1">Send message</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p class="para">&copy; Brew & Byte</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
